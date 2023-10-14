@@ -11,9 +11,13 @@ body, html {
     user-select: none;
 }
 .ToolIcon__icon>svg{
+    display: flex;
     width: 25px;
     height:25px;
+    justify-content: center;
+    gap: 10px;
 }
+
 .vertical-line{
     border-left: 2px solid #f2f2f2;
     height: 30px;
@@ -22,12 +26,30 @@ body, html {
     width: 25px;
     height:25px;
 }
+.secLeft,btn,appMenuTop{
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    /* line-height: 0; */
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+    width: auto;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 3px;
+}
 .ToolIcon__keybinding{
+    display: flex;
     color: rgb(195, 193, 193);
+   align-items: end;
+
 
 }
 .stackHorizontal{
+    display: flex;
    background-color: white;
+
+
    
 }
 
@@ -62,3 +84,8 @@ body, html {
     background-color: lightgray;
   }
   
+  .btn{
+    height: 40px;
+    padding: 3px;
+
+  }
