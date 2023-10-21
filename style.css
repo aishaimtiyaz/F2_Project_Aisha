@@ -20,70 +20,70 @@
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 200px;
-  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+  display: none !important;
+  position: absolute !important;
+  background-color: white !important;
+  min-width: 200px !important;
+  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2) !important;
   z-index: 1 !important;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 5px 10px;
-  font-size: small;
-  text-decoration: none;
+  color: black !important;
+  padding: 5px 10px !important;
+  font-size: small !important;
+  text-decoration: none !important;
   display: block !important;
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: white !important}
+  background-color: white !important;}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block !important;
 
 }
 .color-picker>button>div{
-   width:18px;
-   height:18px;
-   margin-left:2px ;
-   border:1px solid lightgray;
-   border-radius: 3px;
+   width:18px !important;
+   height:18px !important;
+   margin-left:2px !important;
+   border:1px solid lightgray !important;
+   border-radius: 3px !important;
   box-sizing: border-box !important;
 }
 .color-pick{
-  width: 18px; height: 18px;
-  margin: 2px;
+  width: 18px; height: 18px !important;
+  margin: 2px !important;
   pad: 2px !important;
 }
 .color-picker>button{
-  border: none;
+  border: none !important;
   background-color: white !important;
 
 }
 
 #centerNav{
-  border: none;
+  border: none !important;
   border-radius: 4px !important;
   
 }
 #centerNav>div{
-  display: flex;
+  display: flex !important;
   justify-content: space-around !important;
-  padding: 6px;
+  padding: 6px !important;
   cursor: pointer !important;
 }
 
 .centerNavDiv:hover{
   
-  border: none;
-  border-radius: 3px;
+  border: none !important;
+  border-radius: 3px !important;
   background-color: #ececf3 !important;
 }
 
 .vertical-line{
-  margin-top: 6px;
-  border-left: 2px solid #f2f2f2;
+  margin-top: 6px !important;
+  border-left: 2px solid #f2f2f2 !important;
   height: 20px !important;
 }
 
@@ -94,104 +94,18 @@ border-radius: 3px;
 } */
 
 
-footer {
-position: absolute;
-display: flex;
-justify-content: space-between;
-align-items: center;
-left: 2px;
-bottom: 20px;
-width: 100% !important;
+#bottom {
+  position: absolute;
+  z-index: 100;
+  left: 20px;
+  bottom: 20px;
 }
-.footer-left {
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 100 !important;
-}
-.zoom-out:hover {
-background-color: rgb(243, 239, 239);
-color: white !important;
-}
-.zoom-out,
-.screen-size-perc,
-.zoom-in {
-border: none;
-background-color: #ececf3;
-font-size: 13px;
-font-weight: 100;
-border-radius: 4px;
-padding: 5px !important;
-}
-.zoom-out:hover {
-background-color: #b8b8b8 !important;
-}
-.footer-zoom {
-display: flex;
-justify-content: space-between;
-align-items: center;
-border: none;
-background-color: #ececf3;
-padding: 5px;
-border-radius: 10px;
-margin-inline: 10px !important;
-}
-
-.undo-button,
-.forward-button {
-border: none;
-background-color: #ececf3;
-padding: 5px;
-z-index: 100 !important;
-}
-.forward-button {
-margin-left: 10px !important;
-}
-.undo-forward {
-display: flex;
-justify-content: space-between;
-background-color: #ececf3;
-border: none;
-padding: 5px;
-border-radius: 10px !important;
-}
-.undo-forward > button:hover {
-background-color: #b8b8b8;
-border-radius: 10p;
-cursor: pointer !important;
-}
-.undo-button {
-margin-right: 10px !important;
-}
-.button-size {
-font-size: 15px !important;
-}
-.footer-right {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-inline: 10px;
-z-index: 100 !important;
-}
-.footer-zoom > button:hover {
-background-color: #c2c2c2;
-cursor: pointer !important;
-}
-.shield-image {
-font-size: 15px;
-color: #605cdb !important;
-}
-.question-image {
-padding: 10px;
-margin-left: 10px;
-border-radius: 10px;
-background-color: #ececf3;
-border: none;
-z-index: 100 !important;
-}
-.question-image:hover {
-background-color: rgb(243, 239, 239);
-cursor: pointer !important;
+#bottom > .options {
+  background-color: #f2f2f2;
+  padding: 3px 8px;
+  border-radius: 5px;
+  width:"18px";
+   height:"18px";
 }
 
 /* @media screen and (max-width: 837px) {
