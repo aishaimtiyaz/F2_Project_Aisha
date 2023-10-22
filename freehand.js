@@ -14,6 +14,7 @@ function onPencilClick() {
     isPencilActive = !isPencilActive ; // enabling the drawing 
   
     if(isPencilActive) {
+        pencil.style.backgroundColor="blue";
         canvas.style.cursor = "crosshair";
         canvas.addEventListener("mousedown", onMouseDown); 
     }

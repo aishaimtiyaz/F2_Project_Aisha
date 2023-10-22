@@ -2,7 +2,7 @@ const canvas = document.getElementById("canvas");
 
 canvas.width = window.innerWidth ;
 canvas.height = window.innerHeight ;
-
+// canvas.style.backgroundColor="#f1f1f1";
 
 const c = canvas.getContext("2d");
 // c is the context object responsible for making any kind of drawings on the canvas.
@@ -41,3 +41,9 @@ function onMouseMove(e){
 function onMouseUp(e){ 
     canvas.removeEventListener("mousemove", onMouseMove);
 }
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+function myFunction() {
+
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
